@@ -8,6 +8,5 @@ Hello, World!
 ```
 
 ## Index
-### 1.Run first GO program
-- [Hello World](01hello/README.md)
-### 2.Basic datatypes
+1. [Run first GO program](01hello/README.md)
+2. [Basic datatypes](02datatypes/README.md)
