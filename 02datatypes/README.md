@@ -1,0 +1,11 @@
+## Datatypes in GO
+In the Go programming language, data types refer to an extensive system used for declaring variables or functions of different types. The type of a variable determines how much space it occupies in storage and how the bit pattern stored is interpreted.
+
+The types in Go can be classified as follows −
+| Sr.No. | Types                                     | Description                                                                                                                                                                                                                          |
+| ------ | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1      | [Numeric types](01numerics/main.go)       | They are again arithmetic types and they represents a) integer types or b) floating point values throughout the program.                                                                                                             |
+| 2      | [Character types](02characters/main.go)   | In Go, there is no char data type. It uses byte and rune to represent character values.                                                                                                                                              |
+| 3      | [Boolean types](03booleans/main.go)       | They are boolean types and consists of the two predefined constants: (a) true (b) false                                                                                                                                              |
+| 4      | [Complex number types](04complex/main.go) | A complex number is a combination of the real and imaginary part, where both parts of the complex number will be float type.                                                                                                         |
+| 5      | [String types](05string/main.go)          | A string type represents the set of string values. Its value is a sequence of bytes. Strings are immutable types that is once created, it is not possible to change the contents of a string. The predeclared string type is string. |

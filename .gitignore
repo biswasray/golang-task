@@ -1,0 +1,16 @@
+*.sh
+*.test
+coverage.out
+# intellij files
+.idea/
+vendor/
+.DS_Store
+.vscode
+# vim temp files
+*.swp
+
+# goenv local version.
+.go-version
+
+*.exe
+*.dmg
