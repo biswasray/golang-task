@@ -46,18 +46,18 @@ When certain characters are preceded by a backslash, they will have a special me
 | Escape sequence | Meaning                                  |
 | --------------- | ---------------------------------------- |
 | \\              | \ character                              |
-| \'              | ' character                              |
-| \"              | " character                              |
-| \?              | ? character                              |
-| \a              | Alert or bell                            |
-| \b              | Backspace                                |
-| \f              | Form feed                                |
-| \n              | Newline                                  |
-| \r              | Carriage return                          |
-| \t              | Horizontal tab                           |
-| \v              | Vertical tab                             |
-| \ooo            | Octal number of one to three digits      |
-| \xhh . . .      | Hexadecimal number of one or more digits |
+| \\'              | ' character                              |
+| \\"              | " character                              |
+| \\?              | ? character                              |
+| \\a              | Alert or bell                            |
+| \\b              | Backspace                                |
+| \\f              | Form feed                                |
+| \\n              | Newline                                  |
+| \\r              | Carriage return                          |
+| \\t              | Horizontal tab                           |
+| \\v              | Vertical tab                             |
+| \\ooo            | Octal number of one to three digits      |
+| \\xhh . . .      | Hexadecimal number of one or more digits |
 
 ### The const Keyword
 You can use **const** prefix to declare constants with a specific type as follows −
