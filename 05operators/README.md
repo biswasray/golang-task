@@ -32,14 +32,14 @@ An operator is a symbol that tells the compiler to perform specific mathematical
 | Operator      | Description                                                                                                                                       |	Example                 |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
 | &&	        | Called Logical AND operator. If both the operands are non-zero, then condition becomes true.	                                                    | (A && B) is false.        |
-| &#124&#124	| Called Logical OR Operator. If any of the two operands is non-zero, then condition becomes true.	                                                | (A &#124&#124 B) is true. |
+| &#124;&#124;	| Called Logical OR Operator. If any of the two operands is non-zero, then condition becomes true.	                                                | (A &#124;&#124; B) is true. |
 | !	            | Called Logical NOT Operator. Use to reverses the logical state of its operand. If a condition is true then Logical NOT operator will make false.	| !(A && B) is true.        |
 
 ### Bitwise
 | Operator  | Description                                                                                                               |	Example                                     |
 |-----------|---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | &	        | Binary AND Operator copies a bit to the result if it exists in both operands.	                                            | (A & B) will give 12, which is 0000 1100      |
-| &#124 	| Binary OR Operator copies a bit if it exists in either operand.	                                                        | (A &#124 B) will give 61, which is 0011 1101  |
+| &#124; 	| Binary OR Operator copies a bit if it exists in either operand.	                                                        | (A &#124; B) will give 61, which is 0011 1101  |
 | ^	        | Binary XOR Operator copies the bit if it is set in one operand but not both.	                                            | (A ^ B) will give 49, which is 0011 0001      |
 | <<	    | Binary Left Shift Operator. The left operands value is moved left by the number of bits specified by the right operand.	| A << 2 will give 240 which is 1111 0000       |
 | >>	    | Binary Right Shift Operator. The left operands value is moved right by the number of bits specified by the right operand. | A >> 2 will give 15 which is 0000 1111        |
@@ -57,7 +57,7 @@ An operator is a symbol that tells the compiler to perform specific mathematical
 | >>=	    | Right shift AND assignment operator	                                                                                    | C >>= 2 is same as C = C >> 2                 |
 | &=	    | Bitwise AND assignment operator	                                                                                        | C &= 2 is same as C = C & 2                   |
 | ^=	    | bitwise exclusive OR and assignment operator	                                                                            | C ^= 2 is same as C = C ^ 2                   |
-| &#124=	| bitwise inclusive OR and assignment operator	                                                                            | C &#124= 2 is same as C = C &#124 2           |
+| &#124;=	| bitwise inclusive OR and assignment operator	                                                                            | C &#124;= 2 is same as C = C &#124; 2           |
 
 ## Miscellaneous
 | Operator  | Description                           |	Example                                     |
